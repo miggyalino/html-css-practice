@@ -1,0 +1,22 @@
+.outer{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 200px;
+}
+
+.outer-second{
+    display: grid;
+    grid-template-columns: 100px 200px 1fr;
+    grid-template-rows: 200px;
+}
+.div1{
+    background-color: lightblue;
+}
+
+.div2{
+    background-color: lightpink ;
+}
+
+.div3{
+    background-color: lightgreen;
+}

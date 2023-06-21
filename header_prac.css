@@ -1,0 +1,48 @@
+.header{
+    margin: 2px;
+    padding: 18px;
+    background-color: rgb(156, 82, 181);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section{
+
+}
+
+.middle-section{
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 500px;
+}
+
+.right-section{
+
+}
+
+.home-link{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.search{
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    flex: 1;
+}
+
+.download-button{
+    background-color:  rgb(156, 82, 181);
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

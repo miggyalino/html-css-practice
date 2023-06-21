@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.div1{
+    width: 100px;
+    background-color: lightblue;
+}
+
+.div2{
+    background-color: lightcoral;
+    flex: 1;
+}
+
+.div3{
+    background-color: red;
+    width: 100px;
+}
+
+.div4{
+    background-color: lime;
+    flex: 2;
+}
+
+.div5{
+    background-color: blueviolet;
+    flex: 1;
+}

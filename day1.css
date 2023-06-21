@@ -1,0 +1,111 @@
+.subscribe{
+    background-color: rgb(200, 1, 1);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.2s;
+}
+
+.subscribe:hover{
+    opacity: 0.5;
+}
+
+.subscribe:active{
+    background-color: orange;
+}
+
+.join{
+    background-color: white;
+    color: blue;
+    border-color: rgb(3, 3, 253);
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px;
+    width: 60px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.join:hover{
+    background-color: blue;
+    color: white;
+}
+
+.join:active{
+    opacity:0.7
+}
+
+.tweet{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(32, 170, 255);
+    padding: 8px;
+    width: 80px;
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.uber{
+    margin-top: 30px;
+    margin-right: 20px;
+    color: white;
+    background-color: black;
+    width:110px;
+    padding:10px;
+    border: none;
+}
+
+.amazon{
+    margin-right: 20px;
+    color: black;
+    background-color: rgb(255, 217, 0);
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+}
+
+.github{
+    color: white;
+    background-color: rgb(50, 173, 50);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.addtocart{
+    margin-right: 5px;
+    color: black;
+    background-color: rgb(255, 217, 0);
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+}
+
+.buy{
+    color: black;
+    background-color: rgb(237, 161, 9);
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px; 
+}
+
+.instock{
+    color: green;
+}
